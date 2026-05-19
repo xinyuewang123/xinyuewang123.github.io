@@ -1,0 +1,19 @@
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="site-brand" href="{{ '/' | relative_url }}">
+      <span class="brand-name">Xinyue Wang</span>
+      <span class="brand-cn">王馨悦</span>
+    </a>
+    <nav class="site-nav" aria-label="Primary">
+      <ul>
+        {% for item in site.nav %}
+          {% assign current = false %}
+          {% if page.url == item.url %}{% assign current = true %}{% endif %}
+          <li>
+            <a href="{{ item.url | relative_url }}" {% if current %}class="is-active" aria-current="page"{% endif %}>{{ item.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
+</header>

@@ -1,0 +1,36 @@
+# ---------------------------------------------
+# Site settings
+# ---------------------------------------------
+title:        "Xinyue Wang"
+tagline:      "Doctoral Researcher in Economics"
+description:  "Personal academic website of Xinyue Wang, doctoral researcher in applied microeconomics at the University of Cologne."
+author:       "Xinyue Wang"
+email:        "xinyue.wang@wiso.uni-koeln.de"
+
+# Replace with your final URL once deployed
+url:          "https://YOUR-GITHUB-USERNAME.github.io"
+baseurl:      ""
+
+# ---------------------------------------------
+# Build settings
+# ---------------------------------------------
+markdown:     kramdown
+permalink:    pretty
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+
+# ---------------------------------------------
+# Navigation (edit order or labels here)
+# ---------------------------------------------
+nav:
+  - title: About
+    url:   /
+  - title: Research
+    url:   /research/
+  - title: Teaching
+    url:   /teaching/
+  - title: CV
+    url:   /cv/
