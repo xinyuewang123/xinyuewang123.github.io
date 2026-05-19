@@ -2,10 +2,20 @@
 <html lang="en">
 {% include head.html %}
 <body>
+  <script>
+    // Apply saved theme before paint to avoid flash
+    (function () {
+      try {
+        var t = localStorage.getItem('theme') || 'light';
+        document.documentElement.setAttribute('data-theme', t);
+      } catch (e) {}
+    })();
+  </script>
   {% include header.html %}
   <main class="container">
     {{ content }}
   </main>
   {% include footer.html %}
+  <script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
 </body>
 </html>
