@@ -42,6 +42,6 @@ title: About
 
   <div class="hero-photo">
     <img src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="Portrait of Xinyue Wang">
-    <a class="cv-link" href="https://drive.google.com/file/d/1kOuXvTs_ncQLXctdEBl_l5YsIpPY-BVi/view" target="_blank" rel="noopener">Download CV ↓</a>
+    <a class="cv-link" href="{{ '/assets/cv/Xinyue_Wang_CV.pdf' | relative_url }}" target="_blank" rel="noopener">Download CV ↓</a>
   </div>
 </section>
