@@ -16,9 +16,7 @@ title: About
     </p>
 
     <p>
-      My research lies in <strong>behavioral, personnel, and health economics</strong>.
-      I am interested in understanding individual and collective behavior, and in
-      drawing on this evidence to inform policies that improve social welfare.
+      My research combines behavioral, personnel, and health economics, using lab and field experiments to study individual behavior and collective decision-making.
     </p>
 
     <p class="secondary">
@@ -31,10 +29,8 @@ title: About
       team as a research assistant on projects in energy economics.
     </p>
 
-    <p class="closing">Please feel free to reach out:</p>
-
     <aside class="contact-card">
-      <p class="contact-title">Contact</p>
+      <p class="contact-title">Please feel free to reach out:</p>
       <ul class="contact-list">
         <li><span class="label">Email</span><a href="mailto:xinyue.wang@wiso.uni-koeln.de">xinyue.wang@wiso.uni-koeln.de</a></li>
         <li><span class="label">Phone</span><span>+49 221 470 91237</span></li>
