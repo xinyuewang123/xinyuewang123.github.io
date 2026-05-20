@@ -33,15 +33,27 @@ title: About
 
     <p class="closing">Please feel free to reach out:</p>
 
-    <div class="contact">
-      <div><span class="label">Email</span><a href="mailto:xinyue.wang@wiso.uni-koeln.de">xinyue.wang@wiso.uni-koeln.de</a></div>
-      <div><span class="label">Phone</span>+49 221 470 91237</div>
-      <div><span class="label">Office</span><a href="https://maps.app.goo.gl/8NFjYPGPuLGPDkd57">Room 7.02, WiSo-Gebäude 101</a>, Universitätsstraße 24a, 50931 Cologne, Germany</div>
-    </div>
+    <aside class="contact-card">
+      <p class="contact-title">Contact</p>
+      <ul class="contact-list">
+        <li><span class="label">Email</span><a href="mailto:xinyue.wang@wiso.uni-koeln.de">xinyue.wang@wiso.uni-koeln.de</a></li>
+        <li><span class="label">Phone</span><span>+49 221 470 91237</span></li>
+        <li><span class="label">Office</span>
+          <span>
+            <a href="https://maps.app.goo.gl/8NFjYPGPuLGPDkd57">Room 7.02, WiSo-Gebäude 101</a>,
+            Universitätsstraße 24a, 50931 Cologne, Germany
+          </span>
+        </li>
+      </ul>
+    </aside>
   </div>
 
   <div class="hero-photo">
     <img src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="Portrait of Xinyue Wang">
-    <a class="cv-link" href="{{ '/assets/cv/Xinyue_Wang_CV.pdf' | relative_url }}" target="_blank" rel="noopener">Download CV ↓</a>
+    <div class="photo-cta">
+      <span class="lead">Check out here my</span>
+      <a class="btn-mini" href="{{ '/research/' | relative_url }}">Research</a>
+      <a class="btn-mini" href="{{ '/cv/' | relative_url }}">CV</a>
+    </div>
   </div>
 </section>
