@@ -9,6 +9,8 @@ baseurl:      ""
 
 markdown:     kramdown
 permalink:    pretty
+plugins:
+  - jekyll-sitemap
 exclude:
   - README.md
   - Gemfile

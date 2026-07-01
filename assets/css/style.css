@@ -200,7 +200,7 @@ li { margin-bottom: 0.5rem; }
 
 .hero-photo img {
   width: 100%;
-  aspect-ratio: 4 / 5;
+  aspect-ratio: 3 / 4;
   object-fit: cover;
   border-radius: 2px;
   filter: grayscale(10%);
@@ -325,6 +325,48 @@ li { margin-bottom: 0.5rem; }
 }
 
 .paper-abstract { color: var(--ink-soft); font-size: 0.97rem; }
+
+/* ---------- Abstract expand/collapse ---------- */
+.paper-details { margin-top: 0.7rem; }
+
+.paper-details summary {
+  cursor: pointer;
+  list-style: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: "Inter", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--accent, #69821b);
+  letter-spacing: 0.02em;
+  user-select: none;
+}
+
+.paper-details summary::-webkit-details-marker { display: none; }
+.paper-details summary::marker { content: ""; }
+
+.paper-details summary::before {
+  content: "▸";
+  display: inline-block;
+  font-size: 0.68rem;
+  transition: transform 0.2s ease;
+}
+
+.paper-details[open] summary::before {
+  transform: rotate(90deg);
+}
+
+.paper-details .paper-abstract {
+  margin: 0.7rem 0 0;
+  line-height: 1.65;
+  animation: abstract-fade 0.2s ease;
+}
+
+@keyframes abstract-fade {
+  from { opacity: 0; transform: translateY(-2px); }
+  to { opacity: 1; transform: translateY(0); }
+}
 
 /* ---------- CV embed ---------- */
 .cv-embed {

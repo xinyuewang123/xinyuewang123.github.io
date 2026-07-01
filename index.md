@@ -1,6 +1,7 @@
 ---
 layout: default
 title: About
+description: "Xinyue Wang is a doctoral candidate in economics at the University of Cologne, researching behavioral, personnel, and health economics."
 ---
 
 <section class="hero">
@@ -16,9 +17,10 @@ title: About
     </p>
 
     <p>
-      My research combines behavioral, personnel, and health economics, using lab and field experiments to study individual behavior and collective decision-making.
+      My research combines behavioral, personnel, and health economics, using experiments to study individual behavior and collective decision-making.
     </p>
 
+    {% comment %}
     <p class="secondary">
       I obtained my M.Sc. in Economics from the University of Bonn under the supervision of
       <a href="https://www.econ.uni-bonn.de/iame/en/team/dohmen">Prof. Dr. Thomas Dohmen</a>,
@@ -28,6 +30,7 @@ title: About
       <a href="https://www.researchgate.net/profile/Jiajia-Li-3">Prof. Dr. Jiajia Li</a>'s
       team as a research assistant on projects in energy economics.
     </p>
+    {% endcomment %}
 
     <aside class="contact-card">
       <p class="contact-title">Please feel free to reach out:</p>
