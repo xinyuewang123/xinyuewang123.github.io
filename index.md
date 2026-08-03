@@ -6,7 +6,7 @@ description: "Xinyue Wang is a doctoral candidate in economics at the University
 
 <section class="hero">
   <div class="hero-text">
-    <p>Hi, I'm Xinyue (Chinese: 馨悦).</p>
+    <p>Hi, I'm Xinyue (馨悦).</p>
 
     <p>
       I am a doctoral candidate at the
