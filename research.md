@@ -16,7 +16,7 @@ description: "Research by Xinyue Wang on relative performance information, ranki
     </p>
     <details class="paper-details">
       <summary class="abstract-toggle">Abstract</summary>
-      <p class="paper-abstract">Relative performance information (RPI) is widely used to motivate effort, but two design features remain understudied: the structure of a ranking (how thresholds divide performance into tiers) and whether agents may choose their structure. We propose an online real-effort experiment (cell-identification task) to isolate the total self-selection effect and decompose it into three channels: awareness of alternatives, autonomy to choose, and preference match. We further examine how individual characteristics shape heterogeneous sorting and effort responses, whether self-selection compensates for the motivational gaps left by exogenous assignment, and whether these effects persist across rounds.</p>
+      <p class="paper-abstract"> </p>
     </details>
   </li>
 </ul>
